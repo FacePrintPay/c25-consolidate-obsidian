@@ -13,3 +13,5 @@ cp -a "$TERMUX_HOME"/* "$TARGET_DIR/" 2>/dev/null || true
 # rm -rf "$TARGET_DIR/storage" "$TARGET_DIR/usr"
 echo "File gathering complete. All files are in $TARGET_DIR."
 echo "You can now open '$TARGET_DIR' as a vault in your Obsidian app to sync it to your phone."
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=consolidate_obsidian.sh
